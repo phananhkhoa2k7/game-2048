@@ -1,6 +1,6 @@
-# game_2048
+# Trò Chơi 2048
 
-A new Flutter project.
+Dự án Flutter đơn giản cho học phần lập Trình Hướng Đối Tượng
 
 ## Getting Started
 
