@@ -7,11 +7,11 @@ import '../widgets/screen_frame.dart';
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
-  // TODO: fill in real student IDs / member names.
   static const members = [
-    'Phan Anh Khoa – Msv',
-    'Bùi Anh Hùng – Msv',
-    'Tên Thành viên – Msv',
+    'Bùi Anh Hùng – 25103033',
+    'Phan Anh Khoa – 25103039',
+    'Phạm Công Tín – 25103094',
+    'Phạm Hùng Dũng – 25103113'
   ];
 
   @override

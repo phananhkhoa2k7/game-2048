@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../services/audio_service.dart';
 import '../theme/app_text.dart';
 
 class BackBar extends StatelessWidget {
@@ -11,7 +12,10 @@ class BackBar extends StatelessWidget {
         children: [
           IconButton(
             icon: const Icon(Icons.arrow_back, color: Colors.white, size: 30),
-            onPressed: () => Navigator.pop(context),
+            onPressed: () {
+              AudioService.playClick();
+              Navigator.pop(context);
+            },
           ),
           const SizedBox(width: 8),
           Text(title, style: AppText.white(32)),

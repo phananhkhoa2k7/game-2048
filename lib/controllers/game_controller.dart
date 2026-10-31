@@ -26,15 +26,18 @@ class GameController extends ChangeNotifier {
     if (!board.move(d)) return;
     _busy = true;
     final gen = _generation;
-    AudioService.playMove();
-    notifyListeners(); // tiles slide
+    AudioService.playClick();
+    notifyListeners();
 
     Future.delayed(_slide, () {
       if (_disposed || gen != _generation) return;
       board.settle();
       board.spawn();
       AppState.instance.submitScore(score);
-      if (!board.canMove) status = GameStatus.gameOver;
+      if (!board.canMove) {
+        status = GameStatus.gameOver;
+        AudioService.playLost();
+      }
       _busy = false;
       notifyListeners();
     });

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'services/audio_service.dart';
 import 'screens/menu_screen.dart';
 import 'theme/app_colors.dart';
 
@@ -8,9 +9,14 @@ class App2048 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: '2048',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(useMaterial3: true, colorSchemeSeed: AppColors.gold),
-        home: const MenuScreen(),
-      );
+    title: '2048',
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(useMaterial3: true, colorSchemeSeed: AppColors.gold),
+    builder: (context, child) => Listener(
+      behavior: HitTestBehavior.translucent,
+      onPointerUp: (_) => AudioService.onUserGesture(),
+      child: child,
+    ),
+    home: const MenuScreen(),
+  );
 }
