@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-import '../theme/app_colors.dart';
+import '../theme/mau_sac.dart';
 
-class ScreenFrame extends StatelessWidget {
+class KhungManHinh extends StatelessWidget {
   final Widget child;
-  const ScreenFrame({super.key, required this.child});
+  const KhungManHinh({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        backgroundColor: AppColors.gold,
+        backgroundColor: MauSac.vang,
         body: SafeArea(
           child: Center(
             child: ConstrainedBox(

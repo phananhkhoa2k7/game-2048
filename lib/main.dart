@@ -1,20 +1,19 @@
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'app.dart';
-import 'services/audio_service.dart';
+import 'controller/quan_ly_tro_choi.dart';
+import 'view/dich_vu_am_thanh.dart';
+import 'view/ung_dung.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await AudioService.init();
+  await DichVuAmThanh.khoiTao();
 
-  if (!kIsWeb) AudioService.syncMusic();
-
-  HardwareKeyboard.instance.addHandler((KeyEvent event) {
-    AudioService.onUserGesture();
+  // Trinh duyet chan tu phat am thanh: nhac se bat dau o lan cham / bam phim dau tien.
+  HardwareKeyboard.instance.addHandler((KeyEvent e) {
+    DichVuAmThanh.khiNguoiDungChamVao();
     return false;
   });
 
-  runApp(const App2048());
+  runApp(UngDung2048(quanLy: QuanLyTroChoi()));
 }

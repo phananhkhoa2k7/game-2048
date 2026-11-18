@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class AppColors {
-  static const gold = Color(0xFFE6B035);
-  static const pill = Color(0xFFF2D466);
+class MauSac {
+  static const vang = Color(0xFFE6B035);
+  static const nut = Color(0xFFF2D466);
 
-  static Color tile(int v) => switch (v) {
+  static Color o(int giaTri) => switch (giaTri) {
         2 => const Color(0xFFE0E0E0),
         4 => const Color(0xFFCCCCCC),
         8 => const Color(0xFFF2B179),
