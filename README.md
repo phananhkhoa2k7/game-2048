@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # 2048 – Nhóm 4 (Lập Trình Hướng Đối Tượng)
 
 Trò chơi 2048 (bảng 4×4) viết bằng Flutter/Dart theo mô hình **MVC**.
+=======
+# Trò Chơi 2048
+
+Dự án Flutter đơn giản cho học phần lập Trình Hướng Đối Tượng
+>>>>>>> 21ebb7a21209180f588e652e9c18a1ced29c29ea
 
 ## Cấu trúc
 
