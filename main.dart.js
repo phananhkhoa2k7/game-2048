@@ -59880,7 +59880,7 @@ A.B5.prototype={
 w_(a,b){var s=A.adj(new A.RH(b),null,t.z)
 return A.Bp(a).tf(s)},
 R(a){var s=this,r=null
-return new A.np(A.za(A.d([B.iz,A.ey("2048",A.cW(r,r,B.j,r,r,r,r,r,r,r,r,80,r,r,B.ag,r,r,!0,r,4,r,r,r,r,r,r),r),B.ix,new A.l8(A.d([s.c],t.qk),new A.RI(s),r),B.vA,A.lo(r,60,30,new A.RJ(s,a),"Play",240),B.vx,A.lo(r,60,30,new A.RK(s,a),"Setting",240),B.vx,A.lo(r,60,30,new A.RL(s,a),"About",240),B.iz,A.ey(B.d.a_("- ",14),A.cW(r,r,B.j,r,r,r,r,r,r,r,r,16,r,r,B.ag,r,r,!0,r,2,r,r,r,r,r,r),r),B.iy,A.ey("Nh\xf3m 4\nL\u1eadp Tr\xecnh H\u01b0\u1edbng \u0110\u1ed1i T\u01b0\u1ee3ng",A.cW(r,r,B.j,r,r,r,r,r,r,r,r,15,r,r,B.ag,r,r,!0,r,0.5,r,r,r,r,r,r),B.cc)],t.E),B.aP,B.bS),r)}}
+return new A.np(A.za(A.d([B.iz,A.ey("2048",A.cW(r,r,B.j,r,r,r,r,r,r,r,r,80,r,r,B.ag,r,r,!0,r,4,r,r,r,r,r,r),r),B.ix,new A.l8(A.d([s.c],t.qk),new A.RI(s),r),B.vA,A.lo(r,60,30,new A.RJ(s,a),"Play",240),B.vx,A.lo(r,60,30,new A.RK(s,a),"Setting",240),B.vx,A.lo(r,60,30,new A.RL(s,a),"About",240),B.iz,A.ey(B.d.a_("- ",14),A.cW(r,r,B.j,r,r,r,r,r,r,r,r,16,r,r,B.ag,r,r,!0,r,2,r,r,r,r,r,r),r),B.iy,A.ey("Nh\xf3m 3\nL\u1eadp Tr\xecnh H\u01b0\u1edbng \u0110\u1ed1i T\u01b0\u1ee3ng",A.cW(r,r,B.j,r,r,r,r,r,r,r,r,15,r,r,B.ag,r,r,!0,r,0.5,r,r,r,r,r,r),B.cc)],t.E),B.aP,B.bS),r)}}
 A.RH.prototype={
 $1(a){return this.a},
 $S:27}
@@ -59900,7 +59900,7 @@ A.RL.prototype={
 $0(){return this.a.w_(this.b,B.DT)},
 $S:0}
 A.B6.prototype={
-R(a){var s,r,q=null,p=A.d([B.MT,B.vA,A.ey("D\u1ef1 \xe1n h\u1ecdc ph\u1ea7n:",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,22,q,q,B.ag,q,q,!0,q,1.5,q,q,q,q,q,q),q),B.iy,A.ey("L\u1eadp Tr\xecnh H\u01b0\u1edbng \u0110\u1ed1i T\u01b0\u1ee3ng",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,26,q,q,B.ag,q,q,!0,q,1.5,q,q,q,q,q,q),B.cc),B.vy,A.ey("NH\xd3M 4",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,30,q,q,B.ag,q,q,!0,q,3,q,q,q,q,q,q),q),B.ix],t.E)
+R(a){var s,r,q=null,p=A.d([B.MT,B.vA,A.ey("D\u1ef1 \xe1n h\u1ecdc ph\u1ea7n:",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,22,q,q,B.ag,q,q,!0,q,1.5,q,q,q,q,q,q),q),B.iy,A.ey("L\u1eadp Tr\xecnh H\u01b0\u1edbng \u0110\u1ed1i T\u01b0\u1ee3ng",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,26,q,q,B.ag,q,q,!0,q,1.5,q,q,q,q,q,q),B.cc),B.vy,A.ey("NH\xd3M 3",A.cW(q,q,B.j,q,q,q,q,q,q,q,q,30,q,q,B.ag,q,q,!0,q,3,q,q,q,q,q,q),q),B.ix],t.E)
 for(s=0;s<4;++s){r=B.By[s]
 p.push(new A.fx(B.zK,A.ey(r,new A.j(!0,B.j,q,q,q,q,20,B.ag,q,1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q),q),q))}p.push(B.iz)
 return new A.np(A.za(p,B.aP,B.bS),q)}}
