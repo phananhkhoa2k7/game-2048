@@ -44,7 +44,7 @@ class ManHinhChinh extends StatelessWidget {
             Text('- ' * 14, style: KieuChu.trang(16, khoangChu: 2)),
             const SizedBox(height: 8),
             Text(
-              'Nhóm 4\nLập Trình Hướng Đối Tượng',
+              'Nhóm 3\nLập Trình Hướng Đối Tượng',
               textAlign: TextAlign.center,
               style: KieuChu.trang(15, khoangChu: 0.5),
             ),
