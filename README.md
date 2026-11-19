@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 2048 – Nhóm 3 (Lập Trình Hướng Đối Tượng)
 
 Trò chơi 2048 (bảng 4×4) viết bằng Flutter/Dart theo mô hình **MVC**.
