@@ -25,7 +25,7 @@ class ManHinhGioiThieu extends StatelessWidget {
             Text('Lập Trình Hướng Đối Tượng',
                 textAlign: TextAlign.center, style: KieuChu.trang(26)),
             const SizedBox(height: 40),
-            Text('NHÓM 4', style: KieuChu.trang(30, khoangChu: 3)),
+            Text('NHÓM 3', style: KieuChu.trang(30, khoangChu: 3)),
             const SizedBox(height: 16),
             for (final tv in thanhVien)
               Padding(
